@@ -1,0 +1,33 @@
+{
+  "signal_id": "SIG-X930-24B",
+  "asset": "Tech-Sector-Index (TQQQ)",
+  "direction": "Buy",
+  "confidence": 96.0,
+  "feature_weights": [
+    {
+      "feature": "Short-term Momentum (3Day-VWAP)",
+      "weight": 0.45,
+      "volatility": 0.12
+    },
+    {
+      "feature": "Options Flow (Call Gamma)",
+      "weight": 0.25,
+      "volatility": 0.15
+    },
+    {
+      "feature": "Retail Sentiment Index",
+      "weight": 0.15,
+      "volatility": 0.08
+    },
+    {
+      "feature": "10Yr Treasury Yield Spread",
+      "weight": 0.10,
+      "volatility": 0.05
+    },
+    {
+      "feature": "Macro VIX Implied",
+      "weight": 0.05,
+      "volatility": 0.03
+    }
+  ]
+}
